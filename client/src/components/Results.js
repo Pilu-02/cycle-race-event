@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function Results() {
-  const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const API = process.env.REACT_APP_API_URL || "https://cycle-race-event.onrender.com";
   const [events, setEvents] = useState([]);
   const [selected, setSelected] = useState(null);
 
