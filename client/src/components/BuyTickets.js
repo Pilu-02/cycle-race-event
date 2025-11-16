@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function BuyTickets() {
-  const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const API = process.env.REACT_APP_API_URL || "https://cycle-race-event.onrender.com";
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState("");
