@@ -18,7 +18,7 @@ function Approve() {
   const [activeEventId, setActiveEventId] = useState(null);
   const [declineSubmitting, setDeclineSubmitting] = useState(false);
 
-  const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const API = process.env.REACT_APP_API_URL || "https://cycle-race-event.onrender.com";
 
   // Handle coordinator login
   const handleLogin = async (e) => {
