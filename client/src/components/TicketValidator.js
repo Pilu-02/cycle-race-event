@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function TicketValidator() {
-  const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const API = process.env.REACT_APP_API_URL || "https://cycle-race-event.onrender.com";
   const [input, setInput] = useState("");
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
