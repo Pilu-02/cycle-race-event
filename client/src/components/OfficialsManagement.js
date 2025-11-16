@@ -14,7 +14,7 @@ export default function OfficialsManagement() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const [token, setToken] = useState(localStorage.getItem("token") || "");
-  const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const API = process.env.REACT_APP_API_URL || "https://cycle-race-event.onrender.com";
 
   useEffect(() => {
     if (token) fetchOfficials();
