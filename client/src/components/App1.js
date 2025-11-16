@@ -12,7 +12,7 @@ import RegisterEvents from "./RegisterEvents";
 import Results from "./Results";
 import LeaderboardManagement from "./LeaderboardManagement";
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API = process.env.REACT_APP_API_URL || "https://cycle-race-event.onrender.com";
 
 function HomePage({
   showForm,
